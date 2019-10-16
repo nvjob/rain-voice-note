@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Rain Voice Note 1.0.0.3 Desktop App</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" href="rain-voice-note.1003.css" type="text/css" media="screen" />
+</head>
+<body>
+<div id="info"></div>
+<div class="rainzx">
+<div class="right">
+<button id="start_button" onclick="startButton(event)">
+<img id="start_img" src="mic.png" alt="Start">
+</button>
+</div>
+<div id="results" class="task">
+<span id="final_span" class="final"></span>
+<span id="interim_span" class="interim"></span>
+</div>
+</div>
+<div class="footer">
+<div id="div_rain">
+<a href="https://nvjob.github.io" target="_blank">#NVJOB</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://nvjob.github.io" target="_blank">Rain Voice Note</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="permission/" target="_blank">Microphone Permission</a>
+</div>
+<div id="div_language">
+<select id="select_language" onchange="updateCountry()"></select>
+<select id="select_dialect"></select>
+</div>
+</div>
+<div id="context-menu" class="context-menu">
+<div class="context-menu_item"><button class="context-menu_link" id="js-copybtnzx">Copy text</button></div>
+</div>
+<script type="text/javascript" src="rain-voice-note.1003.js"></script>
+</body>
+</html>

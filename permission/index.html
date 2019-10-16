@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Microphone Permission for Rain Voice Note 1.0.0.3</title>
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="stylesheet" href="permission.css" type="text/css" media="screen" />
+</head>
+<body>
+<div id="info"></div>
+<div class="right">
+<p><strong>Microphone Permission for <br>Rain Voice Note</strong></p>
+<br>
+<button id="start_button" onclick="startButton(event)">
+<img id="start_img" src="micpr.png" alt="Start">
+</button>
+<p>
+Click the Microphone icon.<br>
+Click on the red-crossed camera in the right corner of the Chrome address bar.<br>
+Select Always allow https://nvjob.github.io to access your microphone.<br>
+Click on Done. Reload app.<br>
+This will only need to be done once at initial login when using the web app.
+
+
+</p>
+</div>
+<div class="none">
+<div id="div_language">
+<select id="select_language" onchange="updateCountry()"></select>
+<select id="select_dialect"></select>
+</div>
+</div>
+<script type="text/javascript" src="permission.js"></script>
+</body>
+</html>
