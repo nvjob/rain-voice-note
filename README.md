@@ -1,7 +1,6 @@
-# rain-voice-note
-Rain Voice Note
+# Rain Voice Note (Speech To Text)
 
-Voice notepad for typing using voice (Speech To Text).<br>
+Voice notepad for typing using voice using a microphone (Speech To Text). <br>
 This is an open source WEB application made using CW Frame (https://nvjob.github.io/apps/cw-frame). <br>
 Voice recognition is implemented using the Google Cloud Speech API (https://cloud.google.com/speech-to-text).
 
