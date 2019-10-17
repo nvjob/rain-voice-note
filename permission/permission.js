@@ -8,10 +8,7 @@
 
 
 var langs =
-[
-['Pусский',	['ru-RU']],
-['English',	['en-US']]
-];
+[['PСѓСЃСЃРєРёР№',	['ru-RU']],['English',	['en-US']]];
 
 for (var i = 0; i < langs.length; i++) {
 select_language.options[i] = new Option(langs[i][0], i);
@@ -47,7 +44,7 @@ recognition.interimResults = true;
 recognition.onstart = function() {
 recognizing = true;
 showInfo('info_speak_now');
-start_img.src = 'mic-a-pr.png';
+start_img.src = 'micpr1.png';
 };
 
 recognition.onend = function() {
@@ -115,7 +112,7 @@ recognition.start();
 ignore_onend = false;
 final_span.innerHTML = '';
 interim_span.innerHTML = '';
-start_img.src = 'mic-a-pr.png';
+start_img.src = 'micpr1.png';
 showInfo('info_allow');
 showButtons('none');
 start_timestamp = event.timeStamp;
