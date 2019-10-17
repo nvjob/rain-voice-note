@@ -7,3 +7,14 @@ Voice recognition is implemented using the Google Cloud Speech API (https://clou
 https://www.youtube.com/watch?v=3mb9nE4Q070
 
 ![GitHub Logo](https://raw.githubusercontent.com/nvjob/nvjob.github.io/master/repo/devlog/rain%20voice%20note/1003/pic/1.png)
+
+-------------------------------------------------------------------
+
+### Authors
+Designed by #NVJOB Nicholas Veselov - https://nvjob.github.io
+
+### License
+GNU General Public License v3.0 - https://github.com/nvjob/rain-voice-note/blob/master/LICENSE
+
+### Donate
+Help for this project - https://nvjob.github.io/donate
