@@ -1,66 +1,61 @@
 /*!
- * Rain Voice Note 1.0.0.3
- * (c) 2016 #NVJOB Nicholas Veselov https://nvjob.github.io
+ * Rain Voice Note 1.0.0.3 - https://nvjob.github.io/dlog/rain-voice-note.html
+ * (c) 2016-2019 #NVJOB Nicholas Veselov - https://nvjob.github.io
  * GNU General Public License v3.0
- *
- * https://github.com/nvjob/rain-voice-note
  */
 
+.rainvn {
+    color: #fff;
+    text-align: center;
+    background-image: none;
+    overflow: auto;
+}
 
-* {
-margin: 0px auto;
-padding: 0;
-border: 0;
-outline: 0;
-vertical-align: baseline;
-background: transparent;
-text-rendering: optimizeLegibility;
-font-family: Calibri;
-outline: none;
-font-size: 15px;
+.rainvn::-webkit-scrollbar-track {
+    background-color: #000809;
 }
-::selection {
-background: #000809;
+
+.rainvn::-webkit-scrollbar {
+    width: 8px;
+    background-color: #000809;
 }
-html {
-width: 100%;
-height: 100%;
-overflow: hidden;
-background: #000809;
-color: #AFB1B1;
+
+.rainvn::-webkit-scrollbar-thumb {
+    background-color: #161D1E;
 }
-body {
-width: 100%;
-height: 100%;
-overflow: hidden;
+
+.rainvn_lang {
+    display: none;
 }
-.right {
-margin-top: 70px;
-width: 100%;
-text-align: center;
+
+.rainvn_mic_button {
+    margin: 30px auto;
+    float: none;
+    cursor: pointer;
+    width: 350px;
+    height: 200px;
 }
-.right img {
-cursor: pointer;
-opacity: 0.7;
-margin: 15px 0px;
+
+.rainvn_mic_button img {
+    cursor: pointer;
+    opacity: 0.5;
+    -webkit-animation: fadeanim 2s linear infinite;
+    animation: fadeanim 2s linear infinite;
 }
-.right img {
--webkit-animation: migmigx 2s linear infinite;
-animation: migmigx 2s linear infinite;
+
+.rainvn_mic_button img:hover {
+    cursor: pointer;
+    opacity: 0.9;
 }
-@-webkit-keyframes migmigx {
-50% {
-opacity: 0.3;
+
+@-webkit-keyframes fadeanim {
+    50% {
+        opacity: 0.3;
+    }
 }
-}
-.right img:hover {
-cursor: pointer;
-opacity: 0.9;
-}
-.nove, #div_language, #select_language, #select_dialect, .context-menu, .context-menu_item, .context-menu_link {
-display: none;
-opacity: 0;
-width: 0px;
-height: 0px;
-overflow: hidden;
+
+.permission_img {
+    opacity: 0.5;
+    margin: 0px auto;
+    height: 200px;
 }

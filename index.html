@@ -1,36 +1,54 @@
+<!--
+Rain Voice Note 1.0.0.3 - https://nvjob.github.io/dlog/rain-voice-note.html
+(c) 2016-2019 #NVJOB Nicholas Veselov - https://nvjob.github.io
+GNU General Public License v3.0
+-->
+
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="utf-8">
-<title>Rain Voice Note 1.0.0.3 Desktop App</title>
-<link rel="shortcut icon" href="favicon.ico" />
-<link rel="stylesheet" href="rain-voice-note.1003.css" type="text/css" media="screen" />
+    <meta charset="utf-8">
+    <title>Rain Voice Note 1.0.0.3 Desktop App</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="global.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="rain-voice-note.1003.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nvccm.css" type="text/css" media="screen" />
 </head>
+
 <body>
-<div id="info"></div>
-<div class="rainzx">
-<div class="right">
-<button id="start_button" onclick="startButton(event)">
-<img id="start_img" src="mic.png" alt="Start">
-</button>
-</div>
-<div id="results" class="task">
-<span id="final_span" class="final"></span>
-<span id="interim_span" class="interim"></span>
-</div>
-</div>
-<div class="footer">
-<div id="div_rain">
-<a href="https://nvjob.github.io" target="_blank">#NVJOB</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://nvjob.github.io/dlog/rain-voice-note.html" target="_blank">Rain Voice Note</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="permission/" target="_blank">Microphone Permission</a>
-</div>
-<div id="div_language">
-<select id="select_language" onchange="updateCountry()"></select>
-<select id="select_dialect"></select>
-</div>
-</div>
-<div id="context-menu" class="context-menu">
-<div class="context-menu_item"><button class="context-menu_link" id="js-copybtnzx">Copy text</button></div>
-</div>
-<script type="text/javascript" src="rain-voice-note.1003.js"></script>
+
+    <!----------------------------------------->
+
+    <div class="rainvn">
+
+        <div class="rainvn_textarea">
+            <button id="rainvn_mic_button" class="rainvn_mic_button" onclick="rainvnMicButton(event)"><img id="mic_button_img" src="rainvn_mic_button.png" alt="Mic"></button>
+            <div class="rainvn_text nvccm_task"><span id="rainvn_text_final"></span><span id="rainvn_text_interim"></span></div>
+        </div>
+
+        <div class="rainvn_footer">
+            <div class="rainvn_lang"><select id="select_language" onchange="updateCountry()"></select><select id="select_dialect"></select></div>
+            <div class="rainvn_copyright">
+                <a href="https://nvjob.github.io" target="_blank">#NVJOB</a>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="https://nvjob.github.io" target="_blank">Rain Voice Note</a>
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="permission/" target="_blank">Microphone Permission</a></div>
+        </div>
+
+    </div>
+
+    <!----------------------------------------->
+
+    <div id="nvccm" class="nvccm">
+        <div class="nvccm_item"><button class="nvccm_link" id="nvccm-copy">Copy text</button></div>
+    </div>
+
+    <!----------------------------------------->
+
+    <script type="text/javascript" src="rain-voice-note.1003.js"></script>
+    <script type="text/javascript" src="nvccm.js"></script>
 </body>
+
 </html>

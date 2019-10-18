@@ -1,0 +1,45 @@
+ /*!
+ * Rain Voice Note 1.0.0.3 (NV Custom Context Menu) - https://nvjob.github.io/dlog/rain-voice-note.html
+ * (c) 2016-2019 #NVJOB Nicholas Veselov - https://nvjob.github.io
+ * GNU General Public License v3.0
+ */
+
+ .nvccm,
+ .nvccm * {
+     margin: 0px auto;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     vertical-align: baseline;
+     background: transparent;
+     text-rendering: optimizeLegibility;
+     font-family: Calibri;
+     outline: none;
+ }
+
+ .nvccm {
+     display: none;
+     position: absolute;
+     z-index: 10;
+     background: #1F2627;
+     opacity: 0.9;
+     border: 1px solid #282F30;
+ }
+
+ .nvccm-active {
+     display: block;
+ }
+
+ button.nvccm_link {
+     color: #AFB1B1;
+     width: 100%;
+     font-size: 13px;
+     padding: 8px 10px;
+     display: block;
+     cursor: pointer;
+ }
+
+ .nvccm_link:hover {
+     color: #C9CBCB;
+     background: #2F3738;
+ }

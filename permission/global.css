@@ -1,0 +1,19 @@
+ /*!
+ * Rain Voice Note 1.0.0.3 - https://nvjob.github.io/dlog/rain-voice-note.html
+ * (c) 2016-2019 #NVJOB Nicholas Veselov - https://nvjob.github.io
+ * GNU General Public License v3.0
+ */
+
+ html,
+ body {
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+     margin: 0px auto;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     vertical-align: baseline;
+     background: transparent;
+     outline: none;
+ }
