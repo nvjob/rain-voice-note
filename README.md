@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=3mb9nE4Q070
 Designed by #NVJOB Nicholas Veselov - https://nvjob.github.io
 
 ### License
-GNU General Public License v3.0 - https://github.com/nvjob/rain-voice-note/blob/master/LICENSE
+GNU General Public License v3.0 - https://nvjob.github.io/gnu-license
 
 ### Donate
 Help for this project - https://nvjob.github.io/donate
