@@ -14,6 +14,19 @@ GNU General Public License v3.0
     <link rel="stylesheet" href="global.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="rain-voice-note.1003.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="nvccm.css" type="text/css" media="screen" />
+
+    <!------- Google Analytics Start -------->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151102873-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-151102873-1');
+    </script>
+    <!------- Google Analytics End -------->
+
 </head>
 
 <body>
@@ -28,12 +41,13 @@ GNU General Public License v3.0
         </div>
 
         <div class="rainvn_footer">
-            <div class="rainvn_lang"><select id="select_language" onchange="updateCountry()"></select><select id="select_dialect"></select></div>
+            <div class="rainvn_lang">
+                <select id="select_language" onchange="updateCountry()"></select>
+                <select id="select_dialect"></select>
+            </div>
             <div class="rainvn_copyright">
-                <a href="https://nvjob.github.io" target="_blank">#NVJOB</a>
-                &nbsp;&nbsp;|&nbsp;&nbsp;
-                <a href="https://nvjob.github.io/dlog/rain-voice-note.html" target="_blank">Rain Voice Note</a>
-                &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="https://nvjob.github.io" target="_blank">#NVJOB</a> &nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="https://nvjob.github.io/dlog/rain-voice-note.html" target="_blank">Rain Voice Note</a> &nbsp;&nbsp;|&nbsp;&nbsp;
                 <a href="permission/" target="_blank">Microphone Permission</a></div>
         </div>
 
@@ -42,7 +56,9 @@ GNU General Public License v3.0
     <!----------------------------------------->
 
     <div id="nvccm" class="nvccm">
-        <div class="nvccm_item"><button class="nvccm_link" id="nvccm-copy">Copy text</button></div>
+        <div class="nvccm_item">
+            <button class="nvccm_link" id="nvccm-copy">Copy text</button>
+        </div>
     </div>
 
     <!----------------------------------------->
