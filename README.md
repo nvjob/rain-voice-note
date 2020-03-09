@@ -11,6 +11,11 @@ Voice recognition is implemented using the Google [Cloud Speech API](https://clo
 
 -------------------------------------------------------------------
 
+**Patrons:** [nvjob.github.io/patrons](https://nvjob.github.io/patrons)<br>
+*You can become one of the patrons, or make a sponsorship donation.*
+
+-------------------------------------------------------------------
+
 **Authors:** #NVJOB Nicholas Veselov - [nvjob.github.io](https://nvjob.github.io)
 
 **License:** GNU GPL v3.0. Clarification of licenses - [nvjob.github.io/gnu-license](https://nvjob.github.io/gnu-license)
