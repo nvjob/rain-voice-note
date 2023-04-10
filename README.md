@@ -14,3 +14,6 @@ Voice recognition is implemented using the Google [Cloud Speech API](https://clo
 **Authors:** [#NVJOB. Developer Nicholas Veselov. Разработчик Николай Веселов. Санкт-Петербург.](https://nvjob.github.io)
 
 **License:** GNU GPL v3.0. Clarification of licenses - [nvjob.github.io/gnu-license](https://nvjob.github.io/gnu-license)
+
+**🖤 Donate:** <br>
+[paypal.me/nvjob](https://paypal.me/nvjob)
